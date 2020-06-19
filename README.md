@@ -1,3 +1,17 @@
 # telnet-irc-chat
-Chat server con socket e thread. Messaggi pubblici, privati e canali, categorizzazione degli utenti.
-Compilare aggiungedno -pthread. Usare la porta 5000.
+Chat server con socket e thread. Messaggi pubblici, privati, canali e topic.
+
+## Compilazione
+
+Aggiungere l'opzione
+
+```bash
+-pthread
+```
+
+## Utilizzo
+
+```bash
+telnet <IP> 5000
+```
+
